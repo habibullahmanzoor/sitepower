@@ -852,7 +852,7 @@ with tab_calibrate:
             )
             st.altair_chart(shade + lines, use_container_width=True)
             st.caption(
-                "Grey area: the held-out weeks, the only ones the error figures above are computed on."
+                "Yellow area: the held-out weeks, the only ones the error figures above are computed on."
             )
 
             b1, b2 = st.columns(2)
