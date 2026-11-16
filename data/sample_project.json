@@ -1,0 +1,32 @@
+{
+  "name": "Sample 6-storey block (ILLUSTRATIVE)",
+  "weeks": 24,
+  "base_load_kw": 3.0,
+  "base_power_factor": 0.9,
+  "group_diversity": {
+    "cranes": 1.0,
+    "lifting": 0.85,
+    "welfare": 0.8,
+    "lighting": 0.95,
+    "tools": 0.6,
+    "plant": 0.8,
+    "drying": 0.9
+  },
+  "bookings": [
+    { "equipment_id": "site_office", "qty": 1, "start_week": 0, "end_week": 23 },
+    { "equipment_id": "canteen", "qty": 1, "start_week": 0, "end_week": 23 },
+    { "equipment_id": "floodlight", "qty": 4, "start_week": 0, "end_week": 23 },
+    { "equipment_id": "dewatering_pump", "qty": 2, "start_week": 0, "end_week": 5 },
+    { "equipment_id": "compressor", "qty": 1, "start_week": 2, "end_week": 9 },
+    { "equipment_id": "tower_crane", "qty": 1, "start_week": 4, "end_week": 18 },
+    { "equipment_id": "hoist", "qty": 1, "start_week": 6, "end_week": 20 },
+    { "equipment_id": "welding_set", "qty": 2, "start_week": 4, "end_week": 12 },
+    { "equipment_id": "power_tools", "qty": 2, "start_week": 4, "end_week": 15 },
+    { "equipment_id": "temp_lighting", "qty": 3, "start_week": 12, "end_week": 15 },
+    { "equipment_id": "dehumidifier", "qty": 4, "start_week": 14, "end_week": 21 },
+    { "equipment_id": "space_heater", "qty": 2, "start_week": 16, "end_week": 22 },
+    { "equipment_id": "power_tools", "qty": 4, "start_week": 16, "end_week": 23 },
+    { "equipment_id": "temp_lighting", "qty": 6, "start_week": 16, "end_week": 23 },
+    { "equipment_id": "hvac_commissioning", "qty": 1, "start_week": 20, "end_week": 23 }
+  ]
+}
